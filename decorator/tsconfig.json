@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "isolatedModules": false,    
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "baseUrl": "src",
+        "outDir": "./dist/",        
+        "sourceMap": true
+    },
+    "compileOnSave": true,
+    "files": [
+        "src/script.ts",
+        "src/person.ts",
+        "src/time.ts"        
+    ],
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
